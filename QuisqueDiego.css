@@ -1,0 +1,58 @@
+/*Codigo realizado por Diego Quisque*/
+body{
+    background-color: rgb(49, 50, 133);
+    font-family: arial;
+    margin: 0;
+    padding: 30px;
+
+}
+
+h1{
+    color: rgb(233, 217, 70);
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: rgb(94, 204, 255);
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+
+}
+
+.contenedor-libros{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+}
+
+.libro {
+    background-color: rgb(120, 180, 180);
+    border: 2px solid rgb(0, 0, 0);
+    padding: 20px;
+    min-height: 190px;
+    box-sizing: border-box;
+}
+
+.libro h2{
+    color: rgb(28, 65, 134);
+    font-size: 18px;
+    margin-top: 0 ;
+}
+
+.libro p{
+     font-size: 14px;
+     margin: 6px 0;
+        gap: 30px;
+
+}
+
+
+SD{
+    color: rgb(21, 255, 0);
+}
+ND{
+color: rgb(255, 0, 0);
+}
